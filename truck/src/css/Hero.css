@@ -1,0 +1,106 @@
+/* .container {
+  position: relative;
+  text-align: center;
+  color: white;
+} */
+
+.image-holder {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+ul.no-bullets {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.centered {
+  position: absolute;
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-25%, -30%); */
+  top: 60%;
+  left: 19%;
+  right: 0;
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+.text {
+  margin: 2rem;
+  color: white;
+}
+
+.inside-centered {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.hero-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  z-index: -1;
+  margin-top: -150px;
+  width: 100%;
+}
+
+.cards {
+  display: flex;
+  width: 100%;
+}
+
+.card-image {
+  margin: 0px;
+  width: 100%;
+  height: 18vw;
+  object-fit: cover;
+}
+
+.card-text {
+  color: white;
+}
+
+.section-heading {
+  margin: 3rem;
+  color: white;
+  font-size: xx-large;
+  font-weight: 800;
+}
+
+.carousel {
+  max-height: 30rem;
+  overflow: hidden;
+}
+
+.carousel-image {
+  object-fit: cover;
+  width: 100%;
+  /* height: auto; */
+}
+
+.carousel-item {
+  display: flex;
+}
+
+.client-img {
+  margin-bottom: 2rem;
+}
+
+.company-logo {
+  margin-right: 2rem;
+  object-fit: contain;
+  max-width: 10rem;
+  max-height: 10rem;
+}
+
+.footer-container {
+  display: flex;
+}
+
+.footer-column {
+  margin: 3rem;
+}
